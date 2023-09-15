@@ -1,0 +1,15 @@
+docker:
+    path: .
+id: a985fc10-0782-41c0-b3e6-8c09fa8cf062
+ide:
+    filename: ide.yaml
+name: capstone_conveyor
+resources:
+    path: resources
+streaming:
+    filename: streaming.yaml
+template: pyspark
+version: "0.3"
+workflows:
+    path: dags
+    version: "2"
